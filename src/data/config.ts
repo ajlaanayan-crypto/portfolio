@@ -25,7 +25,7 @@ const config = {
   ],
   author: "Mohammad Ayan",
   email: "ajlaan.ayan@gmail.com",
-  site: "https://nareshkhatri.site",
+  site: "https://mohammadayan.netlify.app",
 
   // for github stars button
   githubUsername: "ajlaanayan-crypto",
@@ -36,7 +36,7 @@ const config = {
   },
   social: {
     linkedin: "https://www.linkedin.com/in/mohammad-ayan-207643340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-    instagram: "https://www.instagram.com/starrynight_insta",
+    instagram: "https://www.instagram.com/starrynights_insta",
     facebook: "https://www.facebook.com/HotChaddi/",
     github: "https://github.com/ajlaanayan-crypto",
   },
