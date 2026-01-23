@@ -43,8 +43,8 @@ import { TbTerminal2 } from "react-icons/tb";
 const CONTACT_LINKS = [
   {
     name: "Email",
-    content: "naresh.khatri2345@gmail",
-    href: "mailto:naresh.khatri2345@gmail.com",
+    content: "ajlaan.ayan@gmail",
+    href: "mailto:ajlaan.ayan@gmail.com",
     icon: <FaEnvelope height={"50px"} />,
   },
   {
@@ -55,14 +55,14 @@ const CONTACT_LINKS = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/naresh-khatri/",
-    content: "/naresh-khatri",
+    href: "https://www.linkedin.com/in/mohammad-ayan-207643340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    content: "/mohammad-ayan-207643340",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
-    href: "https://github.com/Naresh-Khatri",
-    content: "/naresh-khatri",
+    href: "https://github.com/ajlaanayan-crypto",
+    content: "/ajlaanayan-crypto",
     icon: <FaGithub height={"50px"} />,
   },
 ];
@@ -251,9 +251,12 @@ function Page() {
                 />
               </div>
               <div className="flex flex-col gap-3 lg:items-center ml-10 md:ml-20 lg:ml-0">
-                <p className="text-center text-xl">Naresh Khatri</p>
+                <p className="text-center text-xl">Mohammad Ayan</p>
                 <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
-                  Web Developer
+                  Full Stack Developer
+                </div>
+                <div className="text-xs bg-zinc-700 w-fit px-3 py-1 rounded-full">
+                  Embedded Programmer
                 </div>
               </div>
             </div>
@@ -287,16 +290,31 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Naresh, a Fullstack developer passionate about
-              creating meaningful digital experiences. With great in Web
-              development, I thrive on turning ideas into reality through coding
-              and design. My journey began with a fascination for technology and
-              a drive to make a positive impact.
+              Hey there! I&apos;m Mohammad Ayan, a passionate Full Stack Web Developer and Embedded Programmer. I specialize in building responsive web applications and working with embedded systems. With expertise in modern web technologies and microcontroller programming, I transform complex ideas into practical, efficient solutions.
             </p>
+            
+            <h2 className="text-xl mb-4">My Skills</h2>
+            <div className="grid grid-cols-2 gap-4 mb-10">
+              <div className="p-4 rounded-lg bg-zinc-800 border-[.5px] border-zinc-700">
+                <h3 className="font-semibold text-blue-400 mb-2">Web Development</h3>
+                <p className="text-sm text-zinc-400">React, Next.js, TypeScript, HTML, CSS, JavaScript, Express.js, Node.js, MongoDB, Firebase, Tailwind CSS</p>
+              </div>
+              <div className="p-4 rounded-lg bg-zinc-800 border-[.5px] border-zinc-700">
+                <h3 className="font-semibold text-green-400 mb-2">Embedded Systems</h3>
+                <p className="text-sm text-zinc-400">C, C++, Python, Microcontroller Programming, Linux, Firmware Development</p>
+              </div>
+              <div className="p-4 rounded-lg bg-zinc-800 border-[.5px] border-zinc-700">
+                <h3 className="font-semibold text-purple-400 mb-2">Tools & Platforms</h3>
+                <p className="text-sm text-zinc-400">Git, GitHub, Docker, AWS, Google Cloud, VS Code, Linux, Android Studio</p>
+              </div>
+              <div className="p-4 rounded-lg bg-zinc-800 border-[.5px] border-zinc-700">
+                <h3 className="font-semibold text-yellow-400 mb-2">Other</h3>
+                <p className="text-sm text-zinc-400">Project Management, Problem Solving, System Design, Agile Development</p>
+              </div>
+            </div>
+
             <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
-              while brainstorming my next project.
+              I&apos;m constantly learning and exploring new technologies. When I&apos;m not coding, you can find me tinkering with hardware, exploring emerging tech, or collaborating on interesting projects.
             </p>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
             <div className="mb-5">
