@@ -29,3 +29,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Auto-added standard ignores
+*.env
+*.log
+.env
+.env.*.local
+.env.local
+.next/
+.pnp/
+.turbo/
+Thumbs.db
+build/
+dist/
+node_modules/
